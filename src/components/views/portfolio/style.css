@@ -17,10 +17,12 @@
 
 #portfolio a p{
     text-align: left;
+    color: white;
 }
 
 .card-title {
     text-align: center;
+    color: white;
 }
 
 .projectCard div{
