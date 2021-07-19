@@ -21,4 +21,18 @@ export default function Contact(props) {
             console.log(`Error! ${error.text}`)
         })
     }
+
+    return (
+        <div className='content' id='contact'>
+            <form id='contact-form' onSubmit={handleSubmit}>
+                <label for='name'>{'Name: '}</label>
+                <input type='text' name='name' value={name} onChange={(event) => setName(event.target.value)} />
+                <label for='email'>{'Email: '}</label>
+                <input type='text' name='email' value={email} onChange={(event) => setEmail(event.target.value)} />
+                <label for='message'>{'Message: '}</label>
+                <textarea type='text' name='message' value={message} onChange={(event) => setMessage(event.target.value)} />
+                <input type='submit' value='submit' id='submitbtn' />
+            </form>
+        </div>
+    )
 }
