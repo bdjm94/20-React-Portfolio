@@ -6,6 +6,14 @@
     animation:animateabout 1s
   }
 
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
 @keyframes animateabout{
     from{opacity:0} 
     to{opacity:1}

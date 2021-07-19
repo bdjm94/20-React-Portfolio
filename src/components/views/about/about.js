@@ -1,4 +1,5 @@
 import React from 'react'
+import profilePic from '../../../images/IMG_3127.jpg'
 import './style.css'
 
 export default class About extends React.Component {
@@ -41,6 +42,7 @@ export default class About extends React.Component {
   render() {
     return (
       <div className='content' id='about'>
+        <img className='profile' src={profilePic} alt='Me'></img>
         <div>
           <p><bdi className='about-headers'>Name:</bdi> {this.state.name}</p>
           <p><bdi className='about-headers'>Role:</bdi> {this.state.role}</p>
