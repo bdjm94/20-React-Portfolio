@@ -1,0 +1,9 @@
+#contact {
+    width: 500px;
+    position:relative;
+    animation:animatecontact 1s
+  }
+@keyframes animatecontact{
+    from{opacity:0} 
+    to{opacity:1}
+  }
