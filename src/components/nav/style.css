@@ -4,3 +4,8 @@
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
 }
+
+#nav-wrap {
+    width: 500px;
+    margin: auto;
+}
