@@ -32,6 +32,16 @@ export default function Portfolio(props) {
                         A Progressive Web Application that makes use of a Mongo Database with a Mongoose schema with routes handled with Express.js</p>
                     </div>
                 </a>
+                <a className='projectCard' href='http://sweat-mate.herokuapp.com/' target='_blank' rel='noreferrer'>
+                    <div>
+                        <img src={sweatmate} alt='Sweat Mate' />
+                        <div className='card-title'>Sweat Mate</div>
+                        <p>A gym blog for those who are wanting to share their fitness journeys or fitness tips. Able to share daily workouts to be on the fitness journey together!
+                        <br />
+                        Makes use of Express.js, MVC paradigm, Sequelize, express-session for authentication and Handlebars.js
+                        </p>
+                    </div>
+                </a>
             </Carousel>
         </div>
     )
