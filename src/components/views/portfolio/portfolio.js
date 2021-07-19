@@ -23,6 +23,15 @@ export default function Portfolio(props) {
                         Makes use of WebAPIs (Ticketmaster and Zomato), Bootstrap, JavaScript and HTML</p>
                     </div>
                 </a>
+                <a className='projectCard' href='https://whered-my-money-go-bm.herokuapp.com/' target='_blank' rel='noreferrer'>
+                    <div>
+                        <img src={budgetTracker} alt='Budget Tracker' />
+                        <div className='card-title'>Where'd My Money Go?</div>
+                        <p>Track your expenses and deposits, whether you are online or offline, using this budget tracking application!
+                        <br />
+                        A Progressive Web Application that makes use of a Mongo Database with a Mongoose schema with routes handled with Express.js</p>
+                    </div>
+                </a>
             </Carousel>
         </div>
     )
