@@ -62,6 +62,16 @@ export default function Portfolio(props) {
                         </p>
                     </div>
                 </a>
+                <a className='projectCard' href='https://techno-bloggers.herokuapp.com/' target='_blank' rel='noreferrer'>
+                    <div>
+                        <img src={techBlog} alt='Tech Blog' />
+                        <div className='card-title'>Techno Bloggers</div>
+                        <p>Sign up and login to this Tech Blog, where you can create, add, edit, delete posts as well as comment on other users posts!
+                        <br />
+                        Makes use of the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and express-session for authentication.
+                        </p>
+                    </div>
+                </a>
             </Carousel>
         </div>
     )
