@@ -27,3 +27,18 @@
     width: 400px;
     margin: auto;
 }
+
+@media only screen and (max-width: 780px) {
+    #portfolio {
+        width: auto;
+        animation: animatefoliosmall 1s;
+    }
+    .projectCard div{
+        width: 250px;
+    }
+}
+
+@keyframes animatefoliosmall {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
