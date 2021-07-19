@@ -52,6 +52,16 @@ export default function Portfolio(props) {
                         </p>
                     </div>
                 </a>
+                <a className='projectCard' href='https://workout-trackerb.herokuapp.com/' target='_blank' rel='noreferrer'>
+                    <div>
+                        <img src={workoutTracker} alt='Workout Tracker' />
+                        <div className='card-title'>Workout Tracker</div>
+                        <p>Log all your exercises, as well as view, create and track your daily workouts using this application!
+                        <br />
+                        Uses a Mongo Database with a Mongoose schema with routes handled by Express.js
+                        </p>
+                    </div>
+                </a>
             </Carousel>
         </div>
     )
