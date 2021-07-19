@@ -42,6 +42,16 @@ export default function Portfolio(props) {
                         </p>
                     </div>
                 </a>
+                <a className='projectCard' href='https://github.com/bdjm94/13-ECommerce-Backend' target='_blank' rel='noreferrer'>
+                    <div>
+                        <img src={ecommerce} alt='Ecommerce Backend' />
+                        <div className='card-title'>E-Commerce Backend</div>
+                        <p>Backend systems of an E-Commerce site.
+                        <br />
+                        Configures a working Express.js API to use Sequelize in order to interact with a MySQL database.
+                        </p>
+                    </div>
+                </a>
             </Carousel>
         </div>
     )
