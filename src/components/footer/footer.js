@@ -13,4 +13,30 @@ export default function Footer(props) {
         <div key='0' className='w3-animate-left'><a href='mailto:brendandjmoore@gmail.com' target='_blank' rel='noopener noreferrer'>
             <img className='ind-icon' alt='Email' src={email} /></a></div>
     ]
+    const [elements, setElements] = useState([])
+
+    let loadLinks = linksArr => {
+        let count = 0
+        let linkTimer = setInterval(() => {
+           setElements(() => [linksArr.slice(0, count)])
+           count++
+           if (count > linksArr.length) {
+               clearInterval(linkTimer)
+           } 
+        }, 250);
+    }
+
+    useEffect(() => {
+        setTimeout(() => {
+           loadLinks(arr) 
+        }, 200);
+    }, [])
+
+    return (
+        <div id='footer-wrap'>
+            <div id='footer'>
+                {elements}
+            </div>
+        </div>
+    )
 }
