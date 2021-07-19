@@ -7,3 +7,13 @@
     from{opacity:0} 
     to{opacity:1}
   }
+
+#contact-form {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+#submitbtn {
+    background-color: white;
+  
+  }
