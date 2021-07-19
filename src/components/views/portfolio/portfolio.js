@@ -1,13 +1,13 @@
 import React from 'react';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import budgetTracker from '../../../images/budget.png'
-import ecommerce from '../../../images/ecommerce.png'
-import impulse from '../../../images/impulse.jpg'
-import sweatmate from '../../../images/sweatmate.jpg'
-import techBlog from '../../../images/tech-blog.jpg'
-import workoutTracker from '../../../images/workout-tracker.jpg'
-import './style.css'
+import budgetTracker from '../../../images/budget.png';
+import ecommerce from '../../../images/ecommerce.png';
+import impulse from '../../../images/impulse.jpg';
+import sweatmate from '../../../images/sweatmate.jpg';
+import techBlog from '../../../images/tech-blog.jpg';
+import workoutTracker from '../../../images/workout-tracker.jpg';
+import './style.css';
 
 export default function Portfolio(props) {
     return (
