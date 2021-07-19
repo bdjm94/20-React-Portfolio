@@ -12,7 +12,26 @@ import './App.css';
 
 function App() {
   return (
-
+<HashRouter>
+  <div className='App'>
+    <Nav>
+      <NavComp exact destination='about' />
+      <NavComp destination='portfolio' />
+      <NavComp destination='skills' />
+      <NavComp destination='contact' />
+    </Nav>
+    <Content>
+      <Switch>
+        <Route path='/about' exact component={About} />
+        <Route path='/portfolio' exact component={Portfolio} />
+        <Route path='/skills' exact component={Skills} />
+        <Route path='/contact' exact component={Contact} />
+        <Redirect to='/about' />
+      </Switch>
+    </Content>
+  </div>
+  <Footer />
+</HashRouter>
   );
 }
 
