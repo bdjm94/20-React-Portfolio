@@ -1,5 +1,5 @@
-import React, { useState, useEffect} from 'react'
-import './style.css'
+import React, { useState, useEffect} from 'react';
+import './style.css';
 
 function Nav (props) {
     const [elements, setElements] = useState([])
