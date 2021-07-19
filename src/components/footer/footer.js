@@ -10,7 +10,7 @@ export default function Footer(props) {
             <img className='ind-icon' alt='LinkedIn' src={linkedin} /></a></div>,
         <div key='1' className='w3-animate-left'><a href='https://github.com/bdjm94/' target='_blank' rel='noopener noreferrer'>
             <img className='ind-icon' alt='GitHub' src={github} /></a></div>,
-        <div key='0' className='w3-animate-left'><a href='mailto:brendandjmoore@gmail.com' target='_blank' rel='noopener noreferrer'>
+        <div key='2' className='w3-animate-left'><a href='mailto:brendandjmoore@gmail.com' target='_blank' rel='noopener noreferrer'>
             <img className='ind-icon' alt='Email' src={email} /></a></div>
     ]
     const [elements, setElements] = useState([])
