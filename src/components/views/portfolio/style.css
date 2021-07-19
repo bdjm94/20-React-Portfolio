@@ -10,3 +10,20 @@
     from{opacity: 0; width: 70%;}
     to{opacity: 1; width: 50%;}
 }
+
+#portfolio a {
+    text-decoration: none !important;
+}
+
+#portfolio a p{
+    text-align: left;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.projectCard div{
+    width: 400px;
+    margin: auto;
+}
