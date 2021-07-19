@@ -17,3 +17,12 @@
     background-color: white;
   
   }
+
+input {
+    margin-bottom: 10px
+  }
+  
+textarea {
+    height: 90px;
+    margin-bottom: 20px
+  }
