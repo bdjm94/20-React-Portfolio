@@ -5,3 +5,8 @@
     transition: .6s;
     animation:animatefolio 1s;
 }
+
+@keyframes animatefolio {
+    from{opacity: 0; width: 70%;}
+    to{opacity: 1; width: 50%;}
+}
