@@ -5,3 +5,8 @@
     position:relative;
     animation:animateabout 1s
   }
+
+@keyframes animateabout{
+    from{opacity:0} 
+    to{opacity:1}
+  }
