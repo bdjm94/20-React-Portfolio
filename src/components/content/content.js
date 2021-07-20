@@ -5,9 +5,11 @@ export default function Content (props) {
     const [content, setContent] = useState([])
 
     useEffect(() => {
-        setTimeout(() => {
+        const timerId = setTimeout(() => {
             setContent(props.children)
-        }, 500)
+        }, 500);
+        //to cancel the setTimeout listener when the component is unmounted
+        return () => clearTimeout(timerId);
     }, [])
 
     return (
