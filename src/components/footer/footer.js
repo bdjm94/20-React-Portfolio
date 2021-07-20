@@ -27,9 +27,11 @@ export default function Footer(props) {
     }
 
     useEffect(() => {
-        setTimeout(() => {
+        const timerId = setTimeout(() => {
            loadLinks(arr) 
         }, 200);
+        //to cancel the setTimeout listener when the component is unmounted
+        return () => clearTimeout(timerId)
     }, [])
 
     return (
