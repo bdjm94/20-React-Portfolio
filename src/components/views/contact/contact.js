@@ -9,9 +9,9 @@ export default function Contact(props) {
 
     let handleSubmit = event => {
         event.preventDefault()
-        let mailKey = 'aaf05565412ba0b9940a2afb5d8f6936'
-        emailjs.init(mailKey)
-        emailjs.sendForm('portfolio', 'contact_service', event.target)
+        let mailKey = process.env.REACT_APP_EMAILJS_KEY
+        emailjs.init('user_ePDbASxyPapj6GRKY1TBb')
+        emailjs.sendForm('service_j4sdzh9', 'template_8jvgd1c', event.target)
         .then((result) => {
             console.log(result.text)
             setName('')
