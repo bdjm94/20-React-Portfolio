@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/20-React-Portfolio/static/css/main.ec2f70b0.chunk.css",
+    "main.js": "/20-React-Portfolio/static/js/main.6fe0349d.chunk.js",
+    "main.js.map": "/20-React-Portfolio/static/js/main.6fe0349d.chunk.js.map",
+    "runtime-main.js": "/20-React-Portfolio/static/js/runtime-main.b2f835d3.js",
+    "runtime-main.js.map": "/20-React-Portfolio/static/js/runtime-main.b2f835d3.js.map",
+    "static/css/2.ed1298f3.chunk.css": "/20-React-Portfolio/static/css/2.ed1298f3.chunk.css",
+    "static/js/2.1e314276.chunk.js": "/20-React-Portfolio/static/js/2.1e314276.chunk.js",
+    "static/js/2.1e314276.chunk.js.map": "/20-React-Portfolio/static/js/2.1e314276.chunk.js.map",
+    "static/js/3.c8a4dc3e.chunk.js": "/20-React-Portfolio/static/js/3.c8a4dc3e.chunk.js",
+    "static/js/3.c8a4dc3e.chunk.js.map": "/20-React-Portfolio/static/js/3.c8a4dc3e.chunk.js.map",
+    "index.html": "/20-React-Portfolio/index.html",
+    "static/css/2.ed1298f3.chunk.css.map": "/20-React-Portfolio/static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.ec2f70b0.chunk.css.map": "/20-React-Portfolio/static/css/main.ec2f70b0.chunk.css.map",
+    "static/js/2.1e314276.chunk.js.LICENSE.txt": "/20-React-Portfolio/static/js/2.1e314276.chunk.js.LICENSE.txt",
+    "static/media/Brendan-Resume.e50c2af9.pdf": "/20-React-Portfolio/static/media/Brendan-Resume.e50c2af9.pdf",
+    "static/media/IMG_3127.e07359df.jpg": "/20-React-Portfolio/static/media/IMG_3127.e07359df.jpg",
+    "static/media/budget.00f527aa.png": "/20-React-Portfolio/static/media/budget.00f527aa.png",
+    "static/media/ecommerce.a235a941.png": "/20-React-Portfolio/static/media/ecommerce.a235a941.png",
+    "static/media/github.4ce0dd95.png": "/20-React-Portfolio/static/media/github.4ce0dd95.png",
+    "static/media/impulse.8d3d52a4.jpg": "/20-React-Portfolio/static/media/impulse.8d3d52a4.jpg",
+    "static/media/sweatmate.d4beb719.jpg": "/20-React-Portfolio/static/media/sweatmate.d4beb719.jpg",
+    "static/media/tech-blog.b9cc1816.jpg": "/20-React-Portfolio/static/media/tech-blog.b9cc1816.jpg",
+    "static/media/workout-tracker.4ab8e3e1.jpg": "/20-React-Portfolio/static/media/workout-tracker.4ab8e3e1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2f835d3.js",
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.1e314276.chunk.js",
+    "static/css/main.ec2f70b0.chunk.css",
+    "static/js/main.6fe0349d.chunk.js"
+  ]
+}
