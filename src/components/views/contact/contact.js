@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import resume from '../../../images/resume.jpg'
+import resume from '../../../images/resume2.png'
 import resumeDownload from '../../../images/Brendan-Resume.pdf'
 import './style.css'
 
